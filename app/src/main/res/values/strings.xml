@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MuninetApp</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="colaboradores">Colaboradores</string>
+    <string name="Objetivo">Promover la integración y aplicación de las TIC en el proceso educativo mediante el uso de herramientas tecnológicas como los kits de robóticas Lego Education, poniendo en práctica lo aprendido fortaleciendo las capacidades creativas y de psicomotricidad, el trabajo en equipo y la innovación en los prototipos a exponer.</string>
+    <string name="objetivo">Objetivo</string>
+    <string name="descripcion">Tecnorobótica 2017 es la \'I Feria de Tecnología y Robótica Educativa organizada por La Municipalidad de Lima a través de la Gerencia de Educación y Deportes y su programa MUNINET, para lo cual realizaremos diversas actividades relacionadas al entorno tecnológico.</string>
+    <string name="comentario">Agrega un comentario</string>
+    <string name="publicar">Publicar</string>
+    <string name="click">Click Aquí</string>
+
+    <string name="title_activity_fullscreen">FullscreenActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="sin_publicaciones">Sin Publicaciones</string>
+</resources>

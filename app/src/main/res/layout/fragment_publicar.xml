@@ -1,0 +1,64 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.giotfisi.muninetapp.Fragments.PublicarFragment">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="10dp"
+            tools:ignore="UselessParent">
+
+            <ImageView
+                android:id="@+id/foto_img"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/img_foto" />
+            <TextView
+                android:id="@+id/click_aqui"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/foto_img"
+                android:gravity="center_horizontal"
+                android:text="@string/click"/>
+
+            <ImageView
+                android:id="@+id/foto_publicar"
+                android:layout_below="@id/click_aqui"
+                android:layout_height="match_parent"
+                android:layout_width="match_parent"
+                android:layout_above="@id/linearLayout"
+                 />
+
+            <LinearLayout
+                android:id="@+id/linearLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentStart="true">
+                <EditText
+                    android:id="@+id/ed_comentario"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:gravity="start"
+                    android:inputType="text|textMultiLine"
+                    android:hint="@string/comentario" />
+
+                <Button
+                    android:id="@+id/btn_publicar"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:text="@string/publicar" />
+            </LinearLayout>
+
+        </RelativeLayout>
+
+</FrameLayout>
